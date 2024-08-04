@@ -1,0 +1,70 @@
+
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.firsttitle{
+  box-shadow: 0px -2px 4px 0px #FFFFFF80 inset;
+}
+
+.merch{
+  align-self: center;
+  z-index: 100;
+  width: 297px;
+  height: 44px;
+}
+
+.tshirt{
+  width: 285px;
+  height: 276px;
+  z-index: 1;
+}
+
+.cap{
+  width: 255px;
+  height: 203px;
+  z-index: 1;
+}
+
+.hzshka{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  max-height: 250px;
+}
+
+.copenothing{
+  z-index: 100;
+}
+
+.shopnowbtn{
+  margin-top: 75px;
+  cursor: pointer;
+  rotate: -10deg;
+}
+
+.pepeimg{
+  display: flex;
+  position: absolute;
+  right:0;
+  top: 350px;
+  z-index: 150;
+
+}
+
+.cowimg{
+  position: absolute;
+  align-self: flex-start;
+  top: 460px;
+}
+
+@media(max-width: 1024px){
+  .pepeimg{
+    left: 600px;
+    top: 350px;
+  }
+}

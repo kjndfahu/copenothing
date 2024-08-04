@@ -1,0 +1,137 @@
+.wrapper{
+    padding:300px 30px 0 30px; 
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.btnsblock{
+    display: flex;
+    flex-direction: row;
+}
+
+.leftblock{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.rightblock{
+    display: flex;
+    flex-direction: row;
+}
+
+.sliderbtns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 124px;
+    height: 60px;
+    gap: 4px;
+    background: #FFFFFF;
+    border-radius: 140px ;
+}
+
+.button{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    background: #87E464;
+    border-radius: 150px ;
+    font-family: "Krona One", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.featureditem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 150px;
+    background: #FFFFFF;
+    font-family: "Krona One", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    height: 60px;
+    width: 268px;
+}
+
+.popupwindow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 60px;
+    width: 137px;
+    font-family: "Krona One", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 150px;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.popupwindowactive{
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    width: 70px;
+    padding: 20px 30px 20px 30px;
+    font-family: "Krona One", sans-serif;
+    font-size: 20px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 150px;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.popupclosed{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 100%;
+}
+
+.popupopen{
+    display:flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background: #fff;
+    padding: 10px;
+    gap: 4px;
+    border: 2px solid black;
+    border-radius: 20px ;
+    align-items: center;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+
+.popupcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Krona One", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.lipopup{
+    border-radius: 10px;
+    padding: 5px 20px;
+
+    &:hover{
+        background: #F5F5F5;
+    }
+}

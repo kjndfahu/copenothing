@@ -1,0 +1,63 @@
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.product {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.product_block{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+  height: 500px;
+  border-radius: 50px;
+  background: #FFFFFF;
+}
+
+.product_image{
+  width: 360px;
+}
+
+.lowerblock{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leftproductblock{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: "Krona One", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.product_name{
+  margin: 0;
+}
+
+.product_price{
+  margin: 0;
+}
+
+.product_btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #87E464;
+  width: 124px;
+  height: 80px;
+  border-radius: 150px;
+}

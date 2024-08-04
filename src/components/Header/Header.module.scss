@@ -1,0 +1,120 @@
+.wrapper{
+  padding: 15px 30px;
+}
+
+.navbar {
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff; /* Black oval background */
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.navitemactive{
+  margin: 0 10px;
+}
+
+.navitem {
+  margin: 0 10px;
+}
+
+.navlink {
+  text-decoration: none;
+  font-family: "Krona One", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #000; /* White text color */
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: inline-block;
+
+  &:hover {
+    background-color: #000; /* Slightly lighter background on hover */
+    color: #fff;
+  }
+}
+
+.activelink {
+  font-weight: bold; /* Bold text for active link */
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.secondblock{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rightblock{
+  display: flex;
+  gap: 10px;
+}
+
+.btns{
+  cursor: pointer;
+}
+
+.searchinput{
+  height: 52px;
+  border: none;
+  font-size: 18px;
+  color: #595959;
+  border-radius: 25px;
+  padding: 0;
+  width: 100%;
+
+  &::placeholder{
+    padding-right: 20px;
+  }
+
+  &:active{
+    border:none;
+    border-color: transparent;
+  }
+}
+
+.allinput{
+  display: flex;
+  flex-direction: row;
+  height: 52px;
+  border: none;
+  font-size: 20px;
+  color: #595959;
+  background: #fff;
+  border-radius: 25px;
+  padding: 0;
+}
+
+.burgericon{
+  display: none;
+  cursor: pointer;
+}
+
+.round{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  width:52px;
+  height: 52px;
+  border-radius: 50px;
+}
+
+@media(max-width: 1024px){
+  .navbar{
+    display:none;
+  }
+
+  .burgericon{
+    display: flex;
+  }
+}

@@ -1,0 +1,52 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    background: #fff;
+    width: 100%;
+    height: 400px;
+    border-radius: 40px;
+
+}
+
+.imagecopenothing{
+    padding: 10px;
+}
+
+.textblock{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 420px;
+}
+
+.maintextinblock{
+    font-family: Krona One;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 44px;
+    margin: 0;
+
+    span{
+        color: #87E464;
+
+    }
+
+}
+
+.paragraph{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
